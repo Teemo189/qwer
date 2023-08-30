@@ -1,0 +1,75 @@
+
+1.2 混凝土
+---------------------------------
+
+.. raw:: html
+
+ <h3 id="test111"> 1.2 混凝土</h3>
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1-1.7"> [A1-1.7]</a><span id="idA1-1.7"> 钢筋混凝土由钢筋和混凝土这两种力学性能不同的材料组成。为了正确合理地进行钢筋混凝土结构设计，必须深入了解钢筋混凝土结构及其构件的受力性能和特点。而对混凝土和钢筋材料的物理力学性能(强度和变形的变化规律)的了解，则是掌握钢筋混凝土结构的构件性能、结构分析和设计的基础。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#id1.2.1">1.2.1 </a><span id="id1.2.1"> 混凝土的强度 </span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1-1.8"> [A1-1.8]</a><span id="idA1-1.8"> 1)混凝土立方体抗压强度</span></p>
+ <p style="text-align:justify;font-family:times new roman"> 一般来说，在钢筋混凝土结构中，混凝土的立方体抗压强度是按规定的标准试件和标准试验方法得到的混凝土强度基本代表值，用符号<i>f</i><sub>cu</sub>表示。标准试件为边长150 mm的立方体试件，标准试件的制作、养护方法和标准试验方法参见国家标准《混凝土物理力学性能试验方法标准》(GB/T50081—2019)。试件的养护龄期一般取28d。</p>
+ <p style="text-align:justify;font-family:times new roman"> 混凝土立方体抗压强度与试验方法有着密切的关系。在通常情况下，试件的上下表面与试验机承压板之间将产生阻止试件向外自由变形的摩阻力，阻滞了裂缝的发展[<a href="#image1.3">图1-3a)</a>]，从而提高了试件的抗压强度。破坏时，远离承压板的试件中部混凝土所受的约束最少，混凝土也剥落得最多，形成两个对顶叠置的截头方锥体[<a href="#image1.3">图1-3b)</a>]。若在承压板和试件上下表面之间涂以油脂润滑剂，试验加压时摩阻力将大为减小，所测得的抗压强度会降低，其破坏形态为如<a href="#image1.3">图1-3c)</a>所示的开裂破坏。国家标准《混凝土物理力学性能试验方法标准》(GB/T50081—2019)规定的方法是不加油脂润滑剂的试验方法。</p>
+ 
+  <body>
+
+  <style type="text/css">
+      #image1.3{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image1.3" src="../_static/fig/1-3.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图1-3  立方体抗压强度试件</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.3'));</script>
+
+  </body>
+ <p style="text-align:justify;font-family:times new roman"> 混凝土的抗压强度还与试件尺寸有关。试验表明，立方体试件尺寸越小，摩阻力的影响越大，测得的强度也越高。在实际工程中有时采用边长为200 mm和边长为100 mm的非标准试件，则所测得的立方体强度应分别乘以换算系数1.05和0.95来折算成边长为150 mm的混凝土立方体抗压强度。</p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1-1.9"> [A1-1.9]</a><span id="idA1-1.9"> 2)混凝土轴心抗压强度(棱柱体抗压强度)</span></p>
+ <p style="text-align:justify;font-family:times new roman"> 通常钢筋混凝土构件的长度比它的截面边长要大得多，因此，棱柱体试件(高度大于截面边长的试件)的受力状态更接近于实际构件中混凝土的受力情况。按照《混凝土物理力学性能试验方法标准》(GB/T50081—2019)所测得的棱柱体试件的抗压强度值，称为混凝土轴心抗压强度，用符号<i>f</i><sub>c</sub>表示。</p>
+ <p style="text-align:justify;font-family:times new roman"> 试验表明，棱柱体试件的抗压强度较立方体试件的抗压强度低。棱柱体试件高度<i>h</i>与边长<i>b</i>之比越大，则强度越低。当<i>h</i>/<i>b</i>由1增至2时，混凝土强度降低很快。但是当<i>h</i>/<i>b</i>由2增至4时，其抗压强度变化不大(<a href="#image1.4">图1-4</a>)。因为在此范围内，既可消除垫板与试件接触面间摩阻力对抗压强度的影响，又可避免试件因纵向初弯曲而产生的附加偏心距对抗压强度的影响，故所测得的棱柱体抗压强度较稳定。因此，国家标准《混凝土物理力学性能试验方法标准》(GB/T50081—2019)规定，混凝土的轴心抗压强度试验以150 mm×150 mm×300 mm的试件为标准试件。</p>
+
+   <body>
+
+  <style type="text/css">
+      #image1.4{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image1.4" src="../_static/fig/1-4.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图1-4  <i>h</i>/<i>b</i>对抗压强度的影响</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.4'));</script>
+
+  </body>
+
+
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1-1.10"> [A1-1.10]</a><span id="idA1-1.10"> 3)混凝土抗拉强度</span></p>
+ <p style="text-align:justify;font-family:times new roman"> 混凝土抗拉强度(用符号ft表示)和抗压强度一样，都是混凝土的基本强度指标。但是混凝土的抗拉强度比抗压强度低得多，它与同龄期混凝土抗压强度的比值在1/18~1/8之间。这项比值随混凝土抗压强度等级的增大而减小，即混凝土抗拉强度的增加慢于抗压强度的增加。</p>
+ <p style="text-align:justify;font-family:times new roman"> 混凝土轴向拉伸试验的试件可采用在两端预埋钢筋的混凝土棱柱体(<a href="#image1.5">图1-5</a>)。试验时用试验机的夹具夹紧试件两端外伸的钢筋施加拉力，破坏时，试件在没有钢筋的中部截面被拉断，其平均拉应力即为混凝土的轴心抗拉强度。</p>
+
+  <body>
+
+  <style type="text/css">
+      #image1.5{
+         margin-left:50px;
+      }
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="../_static/viewer.min.css"/>
+  <script src="../_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+  <div style="text-align:center;"><img id="image1.5" src="../_static/fig/1-5.jpg" alt="Picture"></div>
+  <p style="color: dimgray;text-align: center;font-family:times new roman">图1-5  混凝土抗拉强度试验试件(尺寸单位:mm)</p>
+  <script type="text/javascript">var viewer = new Viewer(document.getElementById('image1.5'));</script>
+
+  </body>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1-1.11"> [A1-1.11]</a><span id="idA1-1.11"> 在用上述方法测定混凝土的轴心抗拉强度时，保持试件轴心受拉是很重要的，也是不容易完全做到的。因为混凝土内部结构不均匀，钢筋的预埋和试件的安装都难以对中，而偏心又对混凝土抗拉强度测试有很大的干扰，因此，目前国内外常采用立方体或圆柱体的劈裂试验来测定混凝土的轴心抗拉强度。</span></p>
+ <p style="text-align:justify;font-family:times new roman"><a href="#idA1-1.12"> [A1-1.12]</a><span id="idA1-1.12"> 劈裂试验是在卧置的立方体(或圆柱体)试件与压力机压板之间放置钢垫条及三合板(或纤维板)垫层(<a href="#image1.6">图1-6</a>)，压力机通过垫条对试件中心面施加均匀的条形分布荷载。这样，除垫条附近外，在试件中间垂直面上就产生了拉应力，它的方向与加载方向垂直，并且基本上是均匀的。当拉应力达到混凝土的抗拉强度时，试件即被劈裂成两半。我国交通运输部颁布的行业标准《公路工程水泥及水泥混凝土试验规程》(JTG3420—2020)规定，采用150 mm立方体试件作为标准试件进行混凝土劈裂抗拉强度测定，按照规定的试验方法操作，则混凝土立方体劈裂抗拉强度<i>f</i><sub>ts</sub>按式(1-1)计算</span></p>
+
+
+  
