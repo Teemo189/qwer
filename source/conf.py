@@ -40,8 +40,15 @@ html_favicon = "_static/logo.png"
 
 
 extensions = ['recommonmark']
+
+from recommonmark.parser import CommonMarkParser
+source_parsers = {
+    '.md':CommonMarkParser
+}
+
 from recommonmark.parser import CommonMarkParser
 source_parsers = {
     '.md': CommonMarkParser,
 }
+
 source_suffix = ['.rst','.md']
